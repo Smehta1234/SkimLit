@@ -29,17 +29,6 @@ The main objectives of the SkimLit project are to:
 - The model architecture includes embedding layers, convolutional layers, and fully connected layers for classification.
 - Achieves improved performance compared to the baseline model.
 
-## Project Structure
-
-```
-skimlit/
-│-- data/               # Dataset and preprocessing scripts
-│-- notebooks/          # Jupyter notebooks for analysis and visualization
-│-- models/             # Model training and evaluation scripts
-│-- utils/              # Utility functions for preprocessing and feature engineering
-│-- results/            # Evaluation metrics and model outputs
-│-- README.md           # Project documentation
-```
 
 ## Dependencies
 
@@ -49,32 +38,10 @@ Ensure you have the following dependencies installed before running the project:
 pip install numpy pandas matplotlib seaborn scikit-learn tensorflow
 ```
 
-## How to Run
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/skimlit.git
-   cd skimlit
-   ```
-2. Prepare the dataset:
-   - Download the **PubMed RCT** dataset and place it in the `data/` directory.
-   - Run the preprocessing script to clean and format the data.
-
-3. Train the models:
-   ```bash
-   python models/train_baseline.py  # Train Naive Bayes Model
-   python models/train_conv1d.py    # Train Conv1D Model
-   ```
-
-4. Evaluate the models:
-   ```bash
-   python models/evaluate_models.py
-   ```
-
 ## Results
 
-- The baseline Naive Bayes model serves as a quick and interpretable benchmark.
-- The Conv1D model with token embeddings demonstrates improved performance, leveraging deep learning capabilities.
+- The baseline Naive Bayes model serves as a quick and interpretable benchmark with a accuracy of 72%
+- The Conv1D model with token embeddings demonstrates improved performance, leveraging deep learning capabilities with a accuracy of 79%
 
 ## Future Work
 
@@ -92,6 +59,6 @@ This project is licensed under the MIT License.
 
 ---
 
-**Author:** Your Name  
-**GitHub:** [Your GitHub Profile](https://github.com/yourusername)
+**Author:** Sanchit Mehta 
+**GitHub:** (https://github.com/Smehta1234)
 
